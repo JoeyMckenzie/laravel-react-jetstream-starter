@@ -15,3 +15,4 @@ My personal Jetstream starter kit with React and my preferred dev tools:
 - Biome for React formatting/linting
 - Rector for PHP code quality and refactoring
 - TypeScript support
+- Strict formatting with Pint
