@@ -61,7 +61,10 @@ export default function LogoutOtherBrowserSessions({ sessions }: Props) {
             {sessions.length > 0 ? (
                 <div className="mt-5 space-y-6">
                     {sessions.map((session, i) => (
-                        <div className="flex items-center" key={session.id}>
+                        <div
+                            className="flex items-center"
+                            key={session.ip_address}
+                        >
                             <div>
                                 {session.agent.is_desktop ? (
                                     <svg
