@@ -6,7 +6,7 @@ import PrimaryButton from "@/Components/PrimaryButton";
 import TextInput from "@/Components/TextInput";
 import { useForm } from "@inertiajs/react";
 import classNames from "classnames";
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 export default function UpdatePasswordForm() {
     const form = useForm({

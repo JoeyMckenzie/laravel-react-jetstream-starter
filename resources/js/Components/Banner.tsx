@@ -1,7 +1,7 @@
 import type { PageProps } from "@/types";
 import { usePage } from "@inertiajs/react";
 import classNames from "classnames";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function Banner() {
     const [show, setShow] = useState(true);

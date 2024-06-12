@@ -5,7 +5,7 @@ import SecondaryButton from "@/Components/SecondaryButton";
 import type { Team } from "@/types";
 import { useForm } from "@inertiajs/react";
 import classNames from "classnames";
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface Props {
     team: Team;

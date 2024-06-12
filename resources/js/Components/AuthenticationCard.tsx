@@ -1,5 +1,5 @@
 import AuthenticationCardLogo from "@/Components/AuthenticationCardLogo";
-import React, { type PropsWithChildren } from "react";
+import type { PropsWithChildren } from "react";
 
 export default function AuthenticationCard({
     children,

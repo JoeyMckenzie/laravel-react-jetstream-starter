@@ -1,5 +1,5 @@
 import { Link } from "@inertiajs/react";
-import React, { type PropsWithChildren } from "react";
+import type { PropsWithChildren } from "react";
 
 interface Props {
     as?: string;

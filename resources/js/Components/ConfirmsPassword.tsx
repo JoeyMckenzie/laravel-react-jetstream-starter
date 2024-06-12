@@ -5,7 +5,7 @@ import SecondaryButton from "@/Components/SecondaryButton";
 import TextInput from "@/Components/TextInput";
 import axios from "axios";
 import classNames from "classnames";
-import React, { type PropsWithChildren, useRef, useState } from "react";
+import { type PropsWithChildren, useRef, useState } from "react";
 
 interface Props {
     title?: string;

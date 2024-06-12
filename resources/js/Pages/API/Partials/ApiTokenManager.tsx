@@ -11,10 +11,10 @@ import PrimaryButton from "@/Components/PrimaryButton";
 import SecondaryButton from "@/Components/SecondaryButton";
 import SectionBorder from "@/Components/SectionBorder";
 import TextInput from "@/Components/TextInput";
-import type { ApiToken, PageProps } from "@/types";
+import type { ApiToken, Nullable, PageProps } from "@/types";
 import { useForm, usePage } from "@inertiajs/react";
 import classNames from "classnames";
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface Props {
     tokens: ApiToken[];
@@ -37,9 +37,9 @@ export default function ApiTokenManager({
     const deleteApiTokenForm = useForm({});
     const [displayingToken, setDisplayingToken] = useState(false);
     const [managingPermissionsFor, setManagingPermissionsFor] =
-        useState<ApiToken | null>(null);
+        useState<Nullable<ApiToken>>(null);
     const [apiTokenBeingDeleted, setApiTokenBeingDeleted] =
-        useState<ApiToken | null>(null);
+        useState<Nullable<ApiToken>>(null);
     const page = usePage<PageProps>();
 
     function createApiToken() {

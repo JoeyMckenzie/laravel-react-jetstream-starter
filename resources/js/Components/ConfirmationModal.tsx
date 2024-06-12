@@ -1,5 +1,5 @@
 import Modal, { type ModalProps } from "@/Components/Modal";
-import React, { type PropsWithChildren } from "react";
+import type { PropsWithChildren } from "react";
 
 ConfirmationModal.Content = function ConfirmationModalContent({
     title,

@@ -7,7 +7,6 @@ import TextInput from "@/Components/TextInput";
 import type { JetstreamTeamPermissions, Team, User } from "@/types";
 import { useForm } from "@inertiajs/react";
 import classNames from "classnames";
-import React from "react";
 
 interface Props {
     team: Team & { owner: User };

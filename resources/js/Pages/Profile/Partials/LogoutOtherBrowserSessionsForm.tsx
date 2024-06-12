@@ -8,7 +8,7 @@ import TextInput from "@/Components/TextInput";
 import type { Session } from "@/types";
 import { useForm } from "@inertiajs/react";
 import classNames from "classnames";
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 interface Props {
     sessions: Session[];

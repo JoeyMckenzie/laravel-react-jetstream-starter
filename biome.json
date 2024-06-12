@@ -14,14 +14,15 @@
 	"linter": {
 		"enabled": true,
 		"ignore": [
-			"./resources/js/ssr.tsx",
-			"./resources/js/components/ui/*.tsx",
-			"./resources/js/components/ui/*.ts"
+			"./resources/js/ssr.tsx"
 		],
 		"rules": {
 			"recommended": true,
 			"a11y": {
 				"noSvgWithoutTitle": "off"
+			},
+			"correctness": {
+				"noUnusedImports": "error"
 			},
 			"nursery": {
 				"useSortedClasses": {

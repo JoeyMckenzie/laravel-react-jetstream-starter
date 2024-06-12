@@ -9,7 +9,7 @@ import type { Nullable, PageProps, User } from "@/types";
 import { router } from "@inertiajs/core";
 import { Link, useForm, usePage } from "@inertiajs/react";
 import classNames from "classnames";
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 
 interface Props {
     user?: Nullable<User>;

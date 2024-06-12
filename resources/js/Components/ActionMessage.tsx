@@ -1,5 +1,5 @@
 import { Transition } from "@headlessui/react";
-import React, { type PropsWithChildren } from "react";
+import type { PropsWithChildren } from "react";
 
 interface Props {
     on: boolean;

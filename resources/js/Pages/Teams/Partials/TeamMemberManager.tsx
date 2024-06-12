@@ -22,7 +22,7 @@ import type {
 import { router } from "@inertiajs/core";
 import { useForm, usePage } from "@inertiajs/react";
 import classNames from "classnames";
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface UserMembership extends User {
     membership: {

@@ -1,6 +1,6 @@
 import { Transition } from "@headlessui/react";
 import classNames from "classnames";
-import React, { type PropsWithChildren, useState } from "react";
+import { type PropsWithChildren, useState } from "react";
 
 interface Props {
     align?: string;

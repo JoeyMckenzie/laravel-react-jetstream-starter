@@ -7,7 +7,6 @@ import TextInput from "@/Components/TextInput";
 import type { PageProps } from "@/types";
 import { useForm, usePage } from "@inertiajs/react";
 import classNames from "classnames";
-import React from "react";
 
 export default function CreateTeamForm() {
     const page = usePage<PageProps>();

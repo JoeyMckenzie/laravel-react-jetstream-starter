@@ -1,6 +1,6 @@
 import { Link } from "@inertiajs/react";
 import classNames from "classnames";
-import React, { type PropsWithChildren } from "react";
+import type { PropsWithChildren } from "react";
 
 type Props =
     | {

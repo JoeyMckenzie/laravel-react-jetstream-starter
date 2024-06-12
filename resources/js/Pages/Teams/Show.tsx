@@ -10,7 +10,6 @@ import type {
     TeamInvitation,
     User,
 } from "@/types";
-import React from "react";
 
 interface UserMembership extends User {
     membership: {

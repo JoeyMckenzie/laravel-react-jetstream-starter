@@ -1,7 +1,6 @@
 import type { PageProps } from "@/types";
 import { Link, usePage } from "@inertiajs/react";
 import { Head } from "@inertiajs/react";
-import React from "react";
 
 interface Props {
     canLogin: boolean;

@@ -11,7 +11,7 @@ import { router } from "@inertiajs/core";
 import { useForm, usePage } from "@inertiajs/react";
 import axios from "axios";
 import classNames from "classnames";
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface Props {
     requiresConfirmation: boolean;

@@ -7,7 +7,6 @@ import UpdatePasswordForm from "@/Pages/Profile/Partials/UpdatePasswordForm";
 import UpdateProfileInformationForm from "@/Pages/Profile/Partials/UpdateProfileInformationForm";
 import type { PageProps, Session } from "@/types";
 import { usePage } from "@inertiajs/react";
-import React from "react";
 
 interface Props {
     sessions: Session[];
