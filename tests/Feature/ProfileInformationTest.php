@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Tests;
+
 use App\Models\User;
 
 test('profile information can be updated', function (): void {

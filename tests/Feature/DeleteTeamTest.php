@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Tests;
+
 use App\Models\Team;
 use App\Models\User;
 
@@ -13,7 +15,8 @@ test('teams can be deleted', function (): void {
     ]));
 
     $team->users()->attach(
-        $otherUser = User::factory()->create(), ['role' => 'test-role']
+        $otherUser = User::factory()->create(),
+        ['role' => 'test-role']
     );
 
     $this->delete('/teams/'.$team->id);

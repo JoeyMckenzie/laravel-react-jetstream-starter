@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Tests;
+
 use App\Models\User;
 
 test('other browser sessions can be logged out', function (): void {

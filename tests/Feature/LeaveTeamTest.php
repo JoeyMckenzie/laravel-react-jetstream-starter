@@ -2,13 +2,16 @@
 
 declare(strict_types=1);
 
+namespace Tests;
+
 use App\Models\User;
 
 test('users can leave teams', function (): void {
     $user = User::factory()->withPersonalTeam()->create();
 
     $user->currentTeam->users()->attach(
-        $otherUser = User::factory()->create(), ['role' => 'admin']
+        $otherUser = User::factory()->create(),
+        ['role' => 'admin']
     );
 
     $this->actingAs($otherUser);

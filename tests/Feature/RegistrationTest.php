@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Tests;
+
 use Laravel\Fortify\Features;
 use Laravel\Jetstream\Jetstream;
 

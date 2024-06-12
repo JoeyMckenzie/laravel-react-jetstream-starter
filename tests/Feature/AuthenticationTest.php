@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Tests;
+
 use App\Models\User;
 
 test('login screen can be rendered', function (): void {
