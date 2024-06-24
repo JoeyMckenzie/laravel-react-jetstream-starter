@@ -26,7 +26,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^2.2.0",
-    "@vue/server-renderer": "^3.4.27",
+    "@vue/server-renderer": "^3.4.30",
     "autoprefixer": "^10.4.19",
     "axios": "^0.26.1",
     "laravel-vite-plugin": "^0.8.1",
